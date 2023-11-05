@@ -23,7 +23,7 @@ for page_number in range(start_page, end_page + 1):
     doc.add_paragraph(text)
 
     # DOCX belgesini kaydediyor
-    output_file = f'YourPath/٦- الايمان والإسلام_page-{page_number:04d}.docx'
+    output_file = f'YourFileName{page_number:04d}.docx'
     doc.save(output_file)
 
     print(f"Sayfa {page_number} tamamlandı. {output_file} dosyası oluşturuldu.")

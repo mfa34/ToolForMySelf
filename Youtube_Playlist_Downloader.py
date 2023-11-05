@@ -1,7 +1,7 @@
 from pytube import Playlist
 
 # YouTube oynatma listesinin URL'sini girin
-playlist_url = "https://www.youtube.com/playlist?list=PL6QeoSH9jbAYdNSD2AugNL0zvcAqvJiUl"
+playlist_url = "Youtube Playlist URL"
 
 # Playlist nesnesi oluşturun
 playlist = Playlist(playlist_url)

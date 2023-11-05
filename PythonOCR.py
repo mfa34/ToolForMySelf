@@ -12,7 +12,7 @@ print("İşlem başladı...")
 # Klasördeki her resmin  işlenmesi
 for page_number in range(start_page, end_page + 1):
     # Resmin adını oluşturun
-    image_file = f'D:/AILE/FATIH/CAHITBULUTABI/Iman_ve_Islam_Arapca/ORCDeneme/٦- الايمان والإسلام_page-{page_number:04d}.jpg'
+    image_file = f'YourPath/٦- الايمان والإسلام_page-{page_number:04d}.jpg'
 
     # Word belgesi oluşturuluyor
     doc = Document()
@@ -23,7 +23,7 @@ for page_number in range(start_page, end_page + 1):
     doc.add_paragraph(text)
 
     # DOCX belgesini kaydediyor
-    output_file = f'D:/AILE/FATIH/CAHITBULUTABI/Iman_ve_Islam_Arapca/ORCDeneme/٦- الايمان والإسلام_page-{page_number:04d}.docx'
+    output_file = f'YourPath/٦- الايمان والإسلام_page-{page_number:04d}.docx'
     doc.save(output_file)
 
     print(f"Sayfa {page_number} tamamlandı. {output_file} dosyası oluşturuldu.")

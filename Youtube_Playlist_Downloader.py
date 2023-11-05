@@ -8,4 +8,4 @@ playlist = Playlist(playlist_url)
 
 # Tüm videoları indirin
 for video in playlist.videos:
-    video.streams.get_highest_resolution().download(output_path="D:/AILE/FATIH/Kuran-i_Kerim_Tefsir_Dersleri_Orhan_Karmis_Hoca")
+    video.streams.get_highest_resolution().download(output_path="YourPath")

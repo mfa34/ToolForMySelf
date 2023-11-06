@@ -2,7 +2,9 @@ import os
 from moviepy.editor import *
 
 # Dönüştürmek istediğiniz klasörün yolu
+
 klasor_yolu = "YourFilePath"
+
 
 # Klasördeki tüm dosyaları alın
 dosya_listesi = os.listdir(klasor_yolu)

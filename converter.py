@@ -3,6 +3,7 @@ from moviepy.editor import *
 
 # Dönüştürmek istediğiniz klasörün yolu
 
+
 klasor_yolu = "YourFilePath"
 
 

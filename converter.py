@@ -2,7 +2,7 @@ import os
 from moviepy.editor import *
 
 # Dönüştürmek istediğiniz klasörün yolu
-klasor_yolu = "D:/AILE/FATIH/Kuran-i_Kerim_Tefsir_Dersleri_Orhan_Karmis_Hoca"
+klasor_yolu = "C:/Users/salih/Music/Telefon/NasihatlarPlaylist"
 
 # Klasördeki tüm dosyaları alın
 dosya_listesi = os.listdir(klasor_yolu)

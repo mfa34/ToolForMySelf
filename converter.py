@@ -3,7 +3,8 @@ from moviepy.editor import *
 
 # Dönüştürmek istediğiniz klasörün yolu
 
-klasor_yolu = "C:/Users/salih/Music/Telefon/NasihatlarPlaylist"
+
+klasor_yolu = "YourFilePath"
 
 
 # Klasördeki tüm dosyaları alın
